@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="DrawAuth@drawauth-db.crlfy9mlmve4.eu-west-2.rds.amazonaws.com" uuid="c87415c4-06b8-4bd2-9eb7-3d0e7d45e0ee">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://drawauth-db.crlfy9mlmve4.eu-west-2.rds.amazonaws.com:3306/DrawAuth</jdbc-url>
+    </data-source>
+  </component>
+</project>

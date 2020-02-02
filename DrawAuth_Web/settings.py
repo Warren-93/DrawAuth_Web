@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django.apps.Drawauth',
     'DrawAuth.apps.DrawauthConfig',
 ]
 
@@ -78,7 +77,7 @@ WSGI_APPLICATION = 'DrawAuth_Web.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'DrawAuth',
         'USER': 'admin',
         'PASSWORD': 'Butchart93',
