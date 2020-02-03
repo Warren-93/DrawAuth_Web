@@ -9,7 +9,6 @@ from django.shortcuts import render
 def index(response):
     return HttpResponse("Index")
 
-
 def login(response):
     return HttpResponse("Login")
 
