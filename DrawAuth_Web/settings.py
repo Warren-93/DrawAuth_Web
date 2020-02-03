@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '39hvjk7=)h2k_gdcjzn6*lu!y-gjlhw3ue#n*y826x^zce)8h+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', 'ec2-3-9-144-21.eu-west-2.compute.amazonaws.com']
 
@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'pages',
     'DrawAuth',
 ]
+
+SESSION_SERIALIZER = 'django.contrib.sessions.serializers.PickleSerializer'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -128,5 +130,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, '/')
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static"),
+    os.path.join(BASE_DIR, "profiles/static"),
+)
 
-
+LOGIN_REDIRECT_URL = '/'
