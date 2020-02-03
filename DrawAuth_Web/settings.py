@@ -37,7 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'DrawAuth.apps.DrawauthConfig',
+    #'DrawAuth.apps.DrawauthConfig',
+
+    # own apps
+    'pages',
+    'DrawAuth',
 ]
 
 MIDDLEWARE = [
