@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e02ffd4-4d03-4f44-ba4e-1bd2f71af93b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/DrawAuth/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DrawAuth/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrawAuth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/DrawAuth/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DrawAuth_Web/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DrawAuth_Web/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DrawAuth_Web/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DrawAuth_Web/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +167,7 @@
       <workItem from="1580665123885" duration="983000" />
       <workItem from="1580667267224" duration="4381000" />
       <workItem from="1580729909134" duration="6245000" />
+      <workItem from="1580739454494" duration="1271000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1580667308613</created>
@@ -190,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580734576117</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="start">
+      <created>1580739505106</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580739505106</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
