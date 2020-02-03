@@ -1,6 +1,5 @@
 from django.db import models
 
-
 # Create your models here.
 
 class DrawAuth_Icons(models.Model):
@@ -18,3 +17,4 @@ class DrawAuth_Users(models.Model):
 
 class DrawAuth_TestImages(models.Model):
     DrawAuth_ImageName = models.ImageField(upload_to="static/images/TestImages")
+
