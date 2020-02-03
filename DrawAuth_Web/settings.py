@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '39hvjk7=)h2k_gdcjzn6*lu!y-gjlhw3ue#n*y826x^zce)8h+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'ec2-3-9-144-21.eu-west-2.compute.amazonaws.com']
 
@@ -133,7 +133,9 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, '/')
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
-    os.path.join(BASE_DIR, "profiles/static"),
-)
+    os.path.join(BASE_DIR, "static/css"),
+    os.path.join(BASE_DIR, "static/images"),
+    os.path.join(BASE_DIR, "static/javascript"),
 
+)
 LOGIN_REDIRECT_URL = '/'
