@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e02ffd4-4d03-4f44-ba4e-1bd2f71af93b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/DrawAuth_Web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DrawAuth_Web.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/username_selection.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/username_selection.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="database.sql.templating" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -105,6 +105,29 @@
       <option name="host" value="" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <module name="DrawAuth_Web" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\mrren\PycharmProjects\DrawAuth_Web\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
@@ -147,7 +170,7 @@
       <workItem from="1580665123885" duration="983000" />
       <workItem from="1580667267224" duration="4381000" />
       <workItem from="1580729909134" duration="6245000" />
-      <workItem from="1580739454494" duration="11379000" />
+      <workItem from="1580739454494" duration="12749000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1580667308613</created>
@@ -177,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580739505106</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="start">
+      <created>1580767993111</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580767993111</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,54 +222,54 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2599" y="127" key="#DrawAuth_Web/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580735144206" />
-    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580667522058">
+    <state x="2334" y="175" width="1092" height="722" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580768687919">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580667522058" />
+    <state x="2334" y="175" width="1092" height="722" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580768687919" />
     <state x="2610" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580742765633">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2610" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580742765633" />
-    <state x="2482" y="115" key="CommitChangelistDialog2" timestamp="1580739503915">
+    <state x="2482" y="115" key="CommitChangelistDialog2" timestamp="1580767991705">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2482" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580739503915" />
+    <state x="2482" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580767991705" />
     <state x="2081" y="92" key="DiffContextDialog" timestamp="1580736867434">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2081" y="92" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580736867434" />
-    <state x="2660" y="262" key="FileChooserDialogImpl" timestamp="1580735142747">
+    <state x="2660" y="262" key="FileChooserDialogImpl" timestamp="1580768447300">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2660" y="262" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580735142747" />
+    <state x="2660" y="262" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580768447300" />
     <state x="2743" y="414" key="Github.ShareDialog" timestamp="1580665627012">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2743" y="414" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580665627012" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1580767798147">
+    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1580768694763">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580767798147" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1580767798147">
+    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580768694763" />
+    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1580768694763">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580767798147" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1580767798147">
+    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580768694763" />
+    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1580768694763">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580767798147" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1580767798147">
+    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580768694763" />
+    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1580768694763">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580767798147" />
+    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580768694763" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1580670258536">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580670258536" />
-    <state x="2381" y="163" key="SettingsEditor" timestamp="1580735049574">
+    <state x="2381" y="163" key="SettingsEditor" timestamp="1580768496708">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2381" y="163" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580735049574" />
+    <state x="2381" y="163" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580768496708" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1580734686924">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
