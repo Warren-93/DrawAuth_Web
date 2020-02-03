@@ -1,10 +1,9 @@
 import base64
 from datetime import datetime
 from django.http import HttpResponse
-
-# Create your views here.
 from django.shortcuts import render
 
+# Create your views here.
 
 def index(response):
     return HttpResponse("Index")
@@ -13,7 +12,7 @@ def login(response):
     return HttpResponse("Login")
 
 def get_current_time():
-    currentDT = datetime.datetime.now()
+    currentDT = datetime.now()
     return currentDT
 
 
