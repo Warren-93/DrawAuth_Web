@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e02ffd4-4d03-4f44-ba4e-1bd2f71af93b" name="Default Changelist" comment="" />
+    <list default="true" id="3e02ffd4-4d03-4f44-ba4e-1bd2f71af93b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/graphical_login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/reg_select_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/logged_out.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/select_graphical_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/username_selection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DrawAuth_Web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DrawAuth_Web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DrawAuth/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/DrawAuth/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DrawAuth/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/DrawAuth/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DrawAuth/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/DrawAuth/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DrawAuth/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DrawAuth/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DrawAuth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/DrawAuth/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DrawAuth_Web/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DrawAuth_Web/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +50,26 @@
         <item name="DrawAuth@drawauth-db.crlfy9mlmve4.eu-west-2.rds.amazonaws.com" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="DrawAuth: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="DrawAuth@drawauth-db.crlfy9mlmve4.eu-west-2.rds.amazonaws.com" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="DrawAuth: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="DrawAuth_Icons: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="DrawAuth@drawauth-db.crlfy9mlmve4.eu-west-2.rds.amazonaws.com" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="DrawAuth: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="DrawAuth_Users: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="DrawAuth@drawauth-db.crlfy9mlmve4.eu-west-2.rds.amazonaws.com" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mysql: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -72,6 +109,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mrren\PycharmProjects\DrawAuth_Web" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mrren\PycharmProjects\DrawAuth_Web\templates" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="DrawAuth_Web" type="Python.DjangoServer" factoryName="Django server">
       <module name="DrawAuth_Web" />
@@ -108,7 +153,8 @@
       <option name="presentableId" value="Default" />
       <updated>1580665121215</updated>
       <workItem from="1580665123885" duration="983000" />
-      <workItem from="1580667267224" duration="836000" />
+      <workItem from="1580667267224" duration="4381000" />
+      <workItem from="1580729909134" duration="2568000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1580667308613</created>
@@ -135,10 +181,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="start" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2599" y="127" key="#DrawAuth_Web" timestamp="1580668104175">
+    <state x="2599" y="127" key="#DrawAuth_Web" timestamp="1580729959524">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2599" y="127" key="#DrawAuth_Web/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580668104175" />
+    <state x="2599" y="127" key="#DrawAuth_Web/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580729959524" />
     <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580667522058">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -147,18 +193,18 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2482" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580668043376" />
-    <state x="2660" y="262" key="FileChooserDialogImpl" timestamp="1580665923260">
+    <state x="2660" y="262" key="FileChooserDialogImpl" timestamp="1580670689231">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2660" y="262" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580665923260" />
+    <state x="2660" y="262" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580670689231" />
     <state x="2743" y="414" key="Github.ShareDialog" timestamp="1580665627012">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2743" y="414" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580665627012" />
-    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1580667528708">
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1580670258536">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580667528708" />
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580670258536" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1580667331132">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
