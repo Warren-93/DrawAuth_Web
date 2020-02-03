@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e02ffd4-4d03-4f44-ba4e-1bd2f71af93b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DrawAuth/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/DrawAuth/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DrawAuth/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/DrawAuth/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,19 +37,6 @@
         <item name="DrawAuth@drawauth-db.crlfy9mlmve4.eu-west-2.rds.amazonaws.com" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="DrawAuth: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="DrawAuth@drawauth-db.crlfy9mlmve4.eu-west-2.rds.amazonaws.com" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="DrawAuth: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="auth_group_permissions: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="DrawAuth@drawauth-db.crlfy9mlmve4.eu-west-2.rds.amazonaws.com" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="mysql: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -159,7 +148,7 @@
       <workItem from="1580665123885" duration="983000" />
       <workItem from="1580667267224" duration="4381000" />
       <workItem from="1580729909134" duration="6245000" />
-      <workItem from="1580739454494" duration="8283000" />
+      <workItem from="1580739454494" duration="8938000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1580667308613</created>
@@ -256,6 +245,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580734686924" />
+    <state x="2752" y="390" width="326" height="259" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1580748694237">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2752" y="390" width="326" height="259" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580748694237" />
     <state x="2634" y="274" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1580735003743">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

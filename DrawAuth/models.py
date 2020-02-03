@@ -16,5 +16,5 @@ class DrawAuth_Users(models.Model):
     AuthDrawing_Four = models.ImageField(upload_to="static/images/UserDrawings")
 
 
-class DrawAuth_testImages(models.Model):
+class DrawAuth_TestImages(models.Model):
     DrawAuth_ImageName = models.ImageField(upload_to="static/images/TestImages")
