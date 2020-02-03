@@ -1,77 +1,36 @@
-import base64
-from datetime import datetime
-from django.http import HttpResponse
 from django.shortcuts import render
-
-# Create your views here.
-
-def index(response):
-    return HttpResponse("Index")
-
-def login(response):
-    return HttpResponse("Login")
-
-def get_current_time():
-    currentDT = datetime.now()
-    return currentDT
+from django.contrib.auth.forms import UserCreationForm
+from django.urls import reverse_lazy
+from django.views import generic
+from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.decorators import login_required
+from django.http import HttpResponseRedirect
 
 
-def home_view(request, *args, **kwargs):
-    print(get_current_time())
-    print("LOGGED IN AS: ")
-    print(request.user)
-    my_context = {
-        "title": "Welcome to the home page",
-        "user_list": [1, 2, 3, 4, 5, 6, 7],
-    }
-    return render(request, "home.html", my_context)
-
-
-def graphical_login_view(request, *args, **kwargs):
-    return render(request, "graphical_login.html", {})
-
-
-def reguser(request, *args, **kwargs):
-    return render(request, "reg_select_user.html", {})
-
-
-def hash_test(request):
-    # turns images into base64 and returns it ready for hashing.
-    image_id = request.POST.get('password_image_id')
-    import base64
-    with open("static/images/PasswordImages/" + image_id, "rb") as imageFile:
-        str = base64.b64encode(imageFile.read())
-    request.session['password'] = str
+def login_programmatically(request):
     username = request.session.get('username')
-    print(get_current_time())
-    print("LOGIN:")
-    print("Username:")
-    print(request.session.get('username'))
-    print("Password:")
-    print(request.session.get('password'))
-    print("Password Image number:")
-    print(image_id)
-    return render(request, "registration/login.html", {
-        'username': username,
-        'password': str})
+    password = request.session.get('password')
+    from django.contrib.auth import authenticate, login
+    if username and password:
+        user = authenticate(username=username, password=password)
+        print(authenticate(username=username, password=password))
+        if user is not None:
+            if user.is_active:
+                print("logging in")
+                login(request, user)
+            else:
+                print("Account deleted or disabled")
+        else:
+            print("didn't log in")
+    return render(request, "home.html")
 
 
-def reg_hash(request):
-    image_id = request.POST.get('password_image_id')
-    path = "static/images/PasswordImages/" + image_id
-    with open(path, "rb") as imageFile:
-        str = base64.b64encode(imageFile.read())
-    request.session['password'] = str
-    username = request.session.get('username')
-    print(get_current_time())
-    print("REGISTER:")
-    print("Username:")
-    print(request.session.get('username'))
-    print("Password:")
-    print(request.session.get('password'))
-    print("Password Image number:")
-    print(image_id)
+class Signup(generic.CreateView):
+    form_class = UserCreationForm
+    success_url = reverse_lazy('home')
 
-    return render(request, "registration/signup.html", {
-        'username': username,
-        'password': str})
+    template_name = 'registration/signup.html'
+
+
+class Login(generic.CreateView):
+    template_name = 'login_form.html'

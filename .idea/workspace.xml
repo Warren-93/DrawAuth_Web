@@ -167,7 +167,7 @@
       <updated>1580665121215</updated>
       <workItem from="1580665123885" duration="983000" />
       <workItem from="1580667267224" duration="4381000" />
-      <workItem from="1580729909134" duration="5638000" />
+      <workItem from="1580729909134" duration="6245000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1580667308613</created>
@@ -209,10 +209,14 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580667522058" />
-    <state x="2482" y="115" key="CommitChangelistDialog2" timestamp="1580734573593">
+    <state x="2482" y="115" key="CommitChangelistDialog2" timestamp="1580736875747">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2482" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580734573593" />
+    <state x="2482" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580736875747" />
+    <state x="2081" y="92" key="DiffContextDialog" timestamp="1580736867434">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2081" y="92" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580736867434" />
     <state x="2660" y="262" key="FileChooserDialogImpl" timestamp="1580735142747">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
