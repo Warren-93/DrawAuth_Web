@@ -50,10 +50,10 @@ urlpatterns = [
     path('selected_user/', selected_user_image_view, name='selected_user_image'),
     path('selected_user_reg/', selected_user_image_reg_view, name='selected_user_image_reg'),
 
-    path('accounts/', include('django.contrib.auth.urls')),
-    path('accounts/', include('accounts.urls')),
-    path('accounts/login/', Login, name='Login'),
-    path('accounts/signup/', Signup, name='Signup')
+    path('DrawAuth/', include('django.contrib.auth.urls')),
+    path('DrawAuth/', include('DrawAuth.urls')),
+    path('DrawAuth/login/', Login, name='Login'),
+    path('DrawAuth/signup/', Signup, name='Signup')
 
 ]
 
