@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from DrawAuth import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include("DrawAuth.urls")),
-    path('home/', )
+    path('home/', views.home_view)
 ]
