@@ -20,6 +20,6 @@ from datetime import datetime
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include("DrawAuth.urls")),
-    path('home/', views.home_view)
+    #path('', include("DrawAuth.urls")),
+    path('', views.home_view)
 ]
