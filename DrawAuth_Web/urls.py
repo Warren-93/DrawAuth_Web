@@ -16,8 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+from DrawAuth.views import login_programmatically, Login, Signup
 
-from accounts.views import login_programmatically, Login, Signup
 from pages.views import (
     home_view,
     graphical_login_view,
